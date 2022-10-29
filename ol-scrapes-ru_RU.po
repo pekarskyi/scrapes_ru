@@ -1,0 +1,1829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Octolooks Scrapes v1.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2019-04-28 21:39+0300\n"
+"Last-Translator: Николай Пекарский <dizer7@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:49
+msgid "Your WordPress version is below 3.5. Please update."
+msgstr "Версия WordPress ниже 3.5. Пожалуйста, обновите."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:53
+msgid "PHP version is below 5.2.4. Please update."
+msgstr "Версия PHP ниже 5.2.4. Пожалуйста, обновите."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:58
+#, php-format
+msgid "PHP extension %s is not loaded. Please contact your server administrator or visit http://php.net/manual/en/%s.installation.php for installation."
+msgstr "Расширение PHP %s не загружается. Обратитесь к администратору сервера или посетите http://php.net/manual/en/%s.installation.php для установки."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:65
+#, php-format
+msgid "%s folder is not writable. Please update permissions for this folder to chmod 755."
+msgstr "Папка %s недоступна для записи. Пожалуйста, обновите разрешения для этой папки до chmod 755."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:69
+#, php-format
+msgid "%s folder is not writable therefore logs.txt file could not be created. Please update permissions for this folder to chmod 755."
+msgstr "Папка %s не доступна для записи, поэтому logs.txt файл не может быть создан. Необходимо обновить разрешения для этой папки CHMOD 755."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:939
+msgid "Featured image"
+msgstr "Миниатюра"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 classes/class-ol-scrapes.php:2521
+#: views/scrape-meta-box.php:348 views/scrape-meta-box.php:415
+#: views/scrape-meta-box.php:981
+msgid "Name"
+msgstr "Название"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:416
+#: views/scrape-meta-box.php:982
+msgid "e.g. name"
+msgstr "например: название"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:423
+msgid "e.g. value"
+msgstr "например: значение"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:422
+#: views/scrape-meta-box.php:459 views/scrape-meta-box.php:482
+#: views/scrape-meta-box.php:546 views/scrape-meta-box.php:629
+#: views/scrape-meta-box.php:704 views/scrape-meta-box.php:793
+#: views/scrape-meta-box.php:867 views/scrape-meta-box.php:885
+#: views/scrape-meta-box.php:945 views/scrape-meta-box.php:956
+#: views/scrape-meta-box.php:988 views/scrape-meta-box.php:1173
+#: views/scrape-meta-box.php:1221
+msgid "Value"
+msgstr "Значение"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:460
+#: views/scrape-meta-box.php:483 views/scrape-meta-box.php:547
+#: views/scrape-meta-box.php:630 views/scrape-meta-box.php:705
+#: views/scrape-meta-box.php:794 views/scrape-meta-box.php:868
+#: views/scrape-meta-box.php:946 views/scrape-meta-box.php:989
+#: views/scrape-meta-box.php:1174
+msgid "e.g. //div[@id='octolooks']"
+msgstr "напр. //div[@id='octolooks']"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:353
+#: views/scrape-meta-box.php:447 views/scrape-meta-box.php:463
+#: views/scrape-meta-box.php:487 views/scrape-meta-box.php:550
+#: views/scrape-meta-box.php:633 views/scrape-meta-box.php:708
+#: views/scrape-meta-box.php:797 views/scrape-meta-box.php:871
+#: views/scrape-meta-box.php:878 views/scrape-meta-box.php:888
+#: views/scrape-meta-box.php:949 views/scrape-meta-box.php:960
+#: views/scrape-meta-box.php:992 views/scrape-meta-box.php:1177
+#: views/scrape-meta-box.php:1224 views/scrape-meta-box.php:1245
+#: views/scrape-meta-box.php:1269 views/scrape-meta-box.php:1298
+#: views/scrape-meta-box.php:1342 views/scrape-meta-box.php:1363
+#: views/scrape-meta-box.php:1430 views/scrape-meta-box.php:1445
+#: views/scrape-settings.php:65 views/scrape-settings.php:72
+msgid "Please enter a valid value."
+msgstr "Пожалуйста, введите значение."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:996
+msgid "Attribute"
+msgstr "Свойство"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:997
+msgid "e.g. href"
+msgstr "например: href"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:639
+#: views/scrape-meta-box.php:803
+msgid "e.g. [scrape_value]"
+msgstr "например: [scrape_value]"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:638
+#: views/scrape-meta-box.php:802 views/scrape-meta-box.php:1002
+msgid "Template"
+msgstr "Шаблон"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:642
+#: views/scrape-meta-box.php:806 views/scrape-meta-box.php:1006
+msgid "value"
+msgstr "значение"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:1007
+msgid "calculate"
+msgstr "Рассчитать"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:643
+#: views/scrape-meta-box.php:720 views/scrape-meta-box.php:807
+#: views/scrape-meta-box.php:1008
+msgid "date"
+msgstr "дата"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:645
+#: views/scrape-meta-box.php:725 views/scrape-meta-box.php:809
+#: views/scrape-meta-box.php:1009
+msgid "source url"
+msgstr "Ссылка"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:1010
+msgid "product url"
+msgstr "URL товара"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:1011
+msgid "cart url"
+msgstr "url корзины"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:586
+#: views/scrape-meta-box.php:677 views/scrape-meta-box.php:759
+#: views/scrape-meta-box.php:841 views/scrape-meta-box.php:919
+#: views/scrape-meta-box.php:1046 views/scrape-meta-box.php:1208
+msgid "Add new find and replace rule"
+msgstr "Добавить новое правило поиска и замены"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:683
+#: views/scrape-meta-box.php:765 views/scrape-meta-box.php:847
+#: views/scrape-meta-box.php:1052
+msgid "Enable template"
+msgstr "Включить шаблон"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:592
+#: views/scrape-meta-box.php:684 views/scrape-meta-box.php:766
+#: views/scrape-meta-box.php:848 views/scrape-meta-box.php:925
+#: views/scrape-meta-box.php:1053 views/scrape-meta-box.php:1214
+msgid "Enable find and replace rules"
+msgstr "Включить правила поиска и замены"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:570
+#: views/scrape-meta-box.php:660 views/scrape-meta-box.php:742
+#: views/scrape-meta-box.php:825 views/scrape-meta-box.php:903
+#: views/scrape-meta-box.php:1029 views/scrape-meta-box.php:1192
+msgid "Find"
+msgstr "Поиск"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:577
+#: views/scrape-meta-box.php:668 views/scrape-meta-box.php:750
+#: views/scrape-meta-box.php:832 views/scrape-meta-box.php:910
+#: views/scrape-meta-box.php:1037 views/scrape-meta-box.php:1199
+msgid "Replace"
+msgstr "Заменить"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:571
+#: views/scrape-meta-box.php:661 views/scrape-meta-box.php:743
+#: views/scrape-meta-box.php:826 views/scrape-meta-box.php:904
+#: views/scrape-meta-box.php:1030 views/scrape-meta-box.php:1193
+msgid "e.g. find"
+msgstr "например: найти"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:578
+#: views/scrape-meta-box.php:669 views/scrape-meta-box.php:751
+#: views/scrape-meta-box.php:833 views/scrape-meta-box.php:911
+#: views/scrape-meta-box.php:1038 views/scrape-meta-box.php:1200
+msgid "e.g. replace"
+msgstr "например: замените"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:528
+msgid "Please select a taxonomy"
+msgstr "Пожалуйста, выберите таксономию"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92
+msgid "Source URL is not valid."
+msgstr "Исходный URL недействителен."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92
+msgid "Post item is not valid."
+msgstr "Запись недействительна."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92
+msgid "Selected item is not a link"
+msgstr "Выбранный элемент не является ссылкой"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92
+msgid "Selected item is not an image"
+msgstr "Выбранный элемент не является изображением"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:780
+#: views/scrape-meta-box.php:1054
+msgid "Allow HTML tags"
+msgstr "Разрешить HTML теги"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:122 views/scrape-meta-box.php:340
+msgid "Add New"
+msgstr "Создать новую"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:122
+msgid "All Scrapes"
+msgstr "Все задачи"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:132
+msgid "Scrapes Settings"
+msgstr "Настройки задачи"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:132 views/scrape-settings.php:42
+msgid "Settings"
+msgstr "Настройки"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Afrikaans"
+msgstr "Африканский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Albanian"
+msgstr "Aлбанский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Amharic"
+msgstr "Амхарский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Arabic"
+msgstr "Арабский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Armenian"
+msgstr "Армянский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Azeerbaijani"
+msgstr "Азербайджанский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Basque"
+msgstr "Баскский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Belarusian"
+msgstr "Белорусский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Bengali"
+msgstr "Бенгальский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Bosnian"
+msgstr "Боснийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Catalan"
+msgstr "Каталонский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Cebuano"
+msgstr "Себуанский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Chichewa"
+msgstr "Чичева"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Chinese (Simplified)"
+msgstr "Китайский (упрощенный)"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Chinese (Traditional)"
+msgstr "Китайский (Традиционный)"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Corsican"
+msgstr "Корсиканский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Croatian"
+msgstr "Хорватский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Czech"
+msgstr "Чешский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Danish"
+msgstr "Датский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Dutch"
+msgstr "Голландский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "English"
+msgstr "Английский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Esperanto"
+msgstr "Эсперанто"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Estonian"
+msgstr "Эстонский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Filipino"
+msgstr "Филиппинский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Finnish"
+msgstr "Финский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "French"
+msgstr "Французский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Frisian"
+msgstr "Фризский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Galician"
+msgstr "Галисийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Georgian"
+msgstr "Грузинский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "German"
+msgstr "Немецкий"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Greek"
+msgstr "Греческий"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Haitian Creole"
+msgstr "Гаитянский креольский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hausa"
+msgstr "Хауса"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hawaiian"
+msgstr "Гавайский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hebrew"
+msgstr "Иврит"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hindi"
+msgstr "Хинди"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hmong"
+msgstr "Хмонг"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Hungarian"
+msgstr "Венгерский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Icelandic"
+msgstr "Исландский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Igbo"
+msgstr "Игбо"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Irish"
+msgstr "Ирландский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Italian"
+msgstr "Итальянский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Japanese"
+msgstr "Японский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Javanese"
+msgstr "Яванский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Kannada"
+msgstr "Каннадский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Kazakh"
+msgstr "Казахский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Khmer"
+msgstr "Кхмерский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Korean"
+msgstr "Корейский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Kurdish"
+msgstr "Курдский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Kyrgyz"
+msgstr "Кыргызский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Lao"
+msgstr "Лао"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Latin"
+msgstr "Латиница"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Latvian"
+msgstr "Латышский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Lithuanian"
+msgstr "Литовский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Luxembourgish"
+msgstr "Люксембургский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Macedonian"
+msgstr "Македонский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Malagasy"
+msgstr "Малагасийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Malay"
+msgstr "Малайский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Malayalam"
+msgstr "Малаялам"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Maltese"
+msgstr "Мальтийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Maori"
+msgstr "Маори"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Marathi"
+msgstr "Маратхи"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Mongolian"
+msgstr "Монгольский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Burmese"
+msgstr "Бирманский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Nepali"
+msgstr "Непальский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Norwegian"
+msgstr "Норвежский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Pashto"
+msgstr "Пушту"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Persian"
+msgstr "Персидский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Polish"
+msgstr "Польский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Portuguese"
+msgstr "Португальский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Punjabi"
+msgstr "Панджаби"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Romanian"
+msgstr "Румынский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Russian"
+msgstr "Русский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Samoan"
+msgstr "Самоанский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Scots Gaelic"
+msgstr "Шотландский гэльский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Serbian"
+msgstr "Сербский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Sesotho"
+msgstr "Сесото"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Shona"
+msgstr "Шона"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Sindhi"
+msgstr "Шинди"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Sinhala"
+msgstr "Сингальский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Slovak"
+msgstr "Словацкий"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Slovenian"
+msgstr "Словенский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Somali"
+msgstr "Сомалийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Spanish"
+msgstr "Испанский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Sundanese"
+msgstr "Суданский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Swahili"
+msgstr "Суахили"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Swedish"
+msgstr "Шведский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Tajik"
+msgstr "Таджикский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Tamil"
+msgstr "Тамильский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Telugu"
+msgstr "Телугу"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Thai"
+msgstr "Тайский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Turkish"
+msgstr "Турецкий"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Ukrainian"
+msgstr "Украинский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Urdu"
+msgstr "Урду"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Uzbek"
+msgstr "Узбекский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Welsh"
+msgstr "Валлийский"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Xhosa"
+msgstr "Коса"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Yiddish"
+msgstr "Идиш"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Yoruba"
+msgstr "Йоруба"
+
+# @ default
+#: classes/class-ol-scrapes.php:294
+msgid "Zulu"
+msgstr "Зулусский"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:377 classes/class-ol-scrapes.php:2539
+msgid "Deactivated"
+msgstr "Деактивировано"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:381 classes/class-ol-scrapes.php:2543
+msgid "Preparing"
+msgstr "Подготовка"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:385 classes/class-ol-scrapes.php:2547
+msgid "Waiting next run"
+msgstr "Ожидание запуска"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:389 classes/class-ol-scrapes.php:2551
+msgid "Running"
+msgstr "Запущено"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:393 classes/class-ol-scrapes.php:2555
+msgid "Complete"
+msgstr "Завершено"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:401 classes/class-ol-scrapes.php:402
+#: classes/class-ol-scrapes.php:2572 classes/class-ol-scrapes.php:2573
+msgid "None"
+msgstr "Отсутствует"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:410 classes/class-ol-scrapes.php:2582
+msgid "No Schedule"
+msgstr "Нет расписания"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:590
+msgid "Every 5 minutes"
+msgstr "Every 5 minutes"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:593
+msgid "Every 10 minutes"
+msgstr "Every 10 minutes"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:596
+msgid "Every 15 minutes"
+msgstr "Every 15 minutes"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:599
+msgid "Every 30 minutes"
+msgstr "Every 30 minutes"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:602
+msgid "Every 45 minutes"
+msgstr "Every 45 minutes"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:605
+msgid "Every hour"
+msgstr "Every hour"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:608
+msgid "Every 2 hours"
+msgstr "Every 2 hours"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:611
+msgid "Every 4 hours"
+msgstr "Every 4 hours"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:614
+msgid "Every 6 hours"
+msgstr "Every 6 hours"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:617
+msgid "Every 8 hours"
+msgstr "Every 8 hours"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:620
+msgid "Every 12 hours"
+msgstr "Every 12 hours"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:623
+msgid "Every day"
+msgstr "Every day"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:626
+msgid "Every 2 days"
+msgstr "Every 2 days"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:629
+msgid "Every 3 days"
+msgstr "Every 3 days"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:632
+msgid "Every week"
+msgstr "Every week"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:635
+msgid "Every 2 weeks"
+msgstr "Every 2 weeks"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:638
+msgid "Every month"
+msgstr "Every month"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2102
+msgid "Your system does not allow php exec function. Your cron type is saved as WordPress cron type."
+msgstr "Ваша система не разрешает функцию выполняемых php. Ваш тип планировщика сохраняется как тип планировщика WordPress."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2129
+msgid "System error occurred during crontab installation. Your cron type is saved as WordPress cron type."
+msgstr "Системная ошибка возникла во время установки crontab. Ваш тип планировщика сохраняется как тип планировщика WordPress."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2134
+msgid "System error occurred while getting your cron jobs. Your cron type is saved as WordPress cron type."
+msgstr "Системная ошибка возникла при получении заданий планировщика. Ваш тип планировщика сохраняется как тип планировщика WordPress."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2170
+msgid "DISABLE_WP_CRON is probably set true in wp-config.php.<br/>Please delete or set it to false, or make sure that you ping wp-cron.php automatically."
+msgstr "DISABLE_WP_CRON вероятно, установлен как true в файле wp-config.php. <br/> Пожалуйста, удалите или установить его в false, или убедитесь, что вы пингуете wp-cron.php автоматически."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2404
+msgid "View All Scrapes"
+msgstr "Посмотреть все задачи"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2522 views/scrape-meta-box.php:1152
+msgid "Status"
+msgstr "Статус"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2523
+msgid "Schedules"
+msgstr "Расписание"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2524
+msgid "Actions"
+msgstr "Действия"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2584
+msgid "Last Run:"
+msgstr "Последний запуск:"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2584
+msgid "Last Complete:"
+msgstr "Последний завершенный:"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2584
+msgid "Next Run:"
+msgstr "Следующий запуск:"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2584
+msgid "Total Run:"
+msgstr "Всего запусков:"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589 views/scrape-meta-box.php:343
+#: views/scrape-meta-box.php:1486
+msgid "Edit"
+msgstr "Правки"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589
+msgid "Run"
+msgstr "Запустить"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589
+msgid "Pause"
+msgstr "Пауза"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589
+msgid "Copy"
+msgstr "Копия"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589
+msgid "Trash"
+msgstr "Корзина"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2589
+msgid "Restore"
+msgstr "Восстановить"
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "An error occurred while connecting to server. Please check your connection."
+msgstr "При подключении к серверу произошла ошибка. Проверьте подключение."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "Domain name is not matching with your site. Please check your domain name."
+msgstr "Доменное имя не соответствует вашему сайту. Проверьте свое доменное имя."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927 views/scrape-settings.php:59
+msgid "Purchase code is validated."
+msgstr "Код покупки подтвержден."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "Purchase code is removed from settings."
+msgstr "Код покупки удален из настроек."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "Purchase code is not approved by Envato. Please check your purchase code."
+msgstr "Код покупки не утвержден Envato. Пожалуйста, проверьте ваш код покупки."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "An error occurred while decoding Envato API results. Please try again later."
+msgstr "Произошла ошибка при декодировании результатов API Envato. Пожалуйста, повторите попытку позже."
+
+# @ ol-scrapes
+#: classes/class-ol-scrapes.php:2927
+msgid "Purchase code is already exists. Please provide another purchase code."
+msgstr "Код покупки уже существует. Укажите другой код покупки."
+
+# @ ol-scrapes
+#. translators: plugin header field 'Name'
+#: ol_scrapes.php:0
+msgid "Octolooks Scrapes"
+msgstr "Octolooks Scrapes"
+
+# @ ol-scrapes
+#. translators: plugin header field 'Description'
+#: ol_scrapes.php:0
+msgid "Copy content from websites into WordPress automatically."
+msgstr "Скопируйте содержимое из веб-сайтов WordPress автоматически."
+
+# @ ol-scrapes
+#. translators: plugin header field 'Author'
+#: ol_scrapes.php:0
+msgid "Octolooks"
+msgstr "Octolooks"
+
+# @ ol-scrapes
+#. translators: plugin header field 'AuthorURI'
+#: ol_scrapes.php:0
+msgid "https://codecanyon.net/user/octolooks?ref=Octolooks"
+msgstr "https://codecanyon.net/user/octolooks?ref=Octolooks"
+
+# @ ol-scrapes
+#. translators: plugin header field 'Version'
+#: ol_scrapes.php:0
+msgid "1.4.3"
+msgstr "1.4.3"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:3 views/scrape-settings.php:3
+msgid "Error!"
+msgstr "Ошибка!"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:4 views/scrape-settings.php:4
+msgid "This page requires JavaScript to run properly."
+msgstr "Эта страница требует JavaScript для правильной работы."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:341
+msgid "Give a name and select task type to start."
+msgstr "Введите имя и выберите тип задачи для запуска."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:344 views/scrape-settings.php:43
+msgid "Modify options and save changes."
+msgstr "Измените параметры и сохраните изменения."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:348
+msgid "The field used to give a name and define task (Required)."
+msgstr "Введите имя задачи (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:352
+msgid "e.g. Scrapes"
+msgstr "например: Задачи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:360
+msgid "Task type"
+msgstr "Тип задачи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:360
+msgid "The field used to set running type of the task (Required)."
+msgstr "Выберите тип задачи (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:368
+msgid "Single"
+msgstr "Страница"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:375
+msgid "Serial"
+msgstr "Страницы"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:382
+msgid "Feed"
+msgstr "Лента"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:395
+msgid "Link Options"
+msgstr "Параметры ссылки"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:401
+msgid "Cookies"
+msgstr "Куки-файлы"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:401
+msgid "The field used to set which cookie values to be sent to source url requests."
+msgstr "Установка значений cookie, отправляемых на запросы исходного URL-адреса."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:431
+msgid "Add new cookie"
+msgstr "Добавить новые cookie"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:438
+msgid "Source URL"
+msgstr "Источник URL"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:438
+msgid "The field used to set which source you want to scrape (Required)."
+msgstr "Укажите источник, который вы хотите сканировать (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:443
+msgid "URL"
+msgstr "URL"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:444 views/scrape-settings.php:70
+msgid "e.g. http://octolooks.com"
+msgstr "напр. http://octolooks.com"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:454
+msgid "Post item"
+msgstr "Запись"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:454
+msgid "The field used to set which links redirect to detail pages (Required)."
+msgstr "Укажите ссылку перенаправления на страницу записи (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:469
+msgid "Exact match only"
+msgstr "Только точное совпадение"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:476
+msgid "Next page"
+msgstr "Следующая страница"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:476
+msgid "The field used to set which link redirects to next list page."
+msgstr "Укажите ссылку перенаправления на следующую страницу записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:480
+msgid "Next page is found automatically."
+msgstr "Следующая страница найдена автоматически."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:498
+msgid "Category Options"
+msgstr "Настройки категории"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:504
+msgid "Post type"
+msgstr "Тип записи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:504
+msgid "The field used to set the post type for posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Укажите типы записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:515 views/scrape-meta-box.php:1096
+#: views/scrape-meta-box.php:1111 views/scrape-meta-box.php:1145
+#: views/scrape-meta-box.php:1160 views/scrape-meta-box.php:1283
+#: views/scrape-meta-box.php:1327 views/scrape-meta-box.php:1393
+#: views/scrape-meta-box.php:1458
+msgid "Please select a valid value."
+msgstr "Выберите действительное значение."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:522
+msgid "Create categories"
+msgstr "Создать категории"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:522
+msgid "The field used to set the categories of automatically created posts to which newly created categories by the plugin in your WordPress site."
+msgstr "Укажите категории записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:554 views/scrape-meta-box.php:875
+msgid "Separator"
+msgstr "Разделитель"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:555 views/scrape-meta-box.php:876
+msgid "e.g. ,"
+msgstr "напр. ,"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:599
+msgid "Categories"
+msgstr "Категории"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:599
+msgid "The field used to set the categories of posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Категории в которые будут помещены записи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:618
+msgid "Post Options"
+msgstr "Настройки записи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:624
+msgid "Title"
+msgstr "Заголовок"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:624
+msgid "The field used to set post titles which will be created automatically by the plugin in your WordPress site."
+msgstr "Заголовки записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:644 views/scrape-meta-box.php:724
+#: views/scrape-meta-box.php:808
+msgid "custom field"
+msgstr "пользовательское поле"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:690 views/scrape-meta-box.php:772
+#: views/scrape-meta-box.php:966 views/scrape-meta-box.php:1231
+msgid "Detect from feed"
+msgstr "Обнаружить из ленты"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:691 views/scrape-meta-box.php:774
+#: views/scrape-meta-box.php:855 views/scrape-meta-box.php:931
+#: views/scrape-meta-box.php:967 views/scrape-meta-box.php:1232
+msgid "Select from source"
+msgstr "Взять из источника"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:698
+msgid "Content"
+msgstr "Содержимое"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:698
+msgid "The field used to set post content which will be created automatically by the plugin in your WordPress site."
+msgstr "Контент записи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:702
+msgid "Content is found automatically."
+msgstr "Содержимое найдено автоматически."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:716
+msgid "content"
+msgstr "содержания"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:717
+msgid "title"
+msgstr "Заголовок"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:718
+msgid "categories"
+msgstr "категории"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:719
+msgid "tags"
+msgstr "теги"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:721
+msgid "featured image"
+msgstr "миниатюра"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:722
+msgid "gallery"
+msgstr "галерея"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:723
+msgid "embed"
+msgstr "Вставка кода"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:773
+msgid "Detect automatically"
+msgstr "Автоматическое обнаружение"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:781
+msgid "Download images to media library"
+msgstr "Загрузка изображений в медиа-библиотеку"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:788
+msgid "Excerpt"
+msgstr "Анонс"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:788
+msgid "The field used to set post excerpt which will be created automatically by the plugin in your WordPress site."
+msgstr "Анонс записи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:854
+msgid "Generate from content"
+msgstr "Генерировать из содержимого"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:862
+msgid "Tags"
+msgstr "Теги"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:862
+msgid "The field used to set the tags of posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Теги записи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:886
+msgid "e.g. octolooks, scrapes"
+msgstr "например: octolooks, сканеры"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:932 views/scrape-meta-box.php:1233
+msgid "Enter custom"
+msgstr "Укажите произвольно"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:939
+msgid "The field used to set featured image for posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Миниатюра записи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:943
+msgid "Featured image is found automatically."
+msgstr "Миниатюра найдена автоматически."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:957 views/scrape-meta-box.php:1295
+#: views/scrape-meta-box.php:1339 views/scrape-meta-box.php:1360
+#: views/scrape-meta-box.php:1427 views/scrape-meta-box.php:1442
+msgid "e.g. 100"
+msgstr "напр.: 100"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:968
+msgid "Select from media library"
+msgstr "Выберите из медиа-библиотеки"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:975
+msgid "Custom fields"
+msgstr "Произвольные поля"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:975
+msgid "The field used to set the custom meta fields of posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Настройки произвольных полей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1003
+msgid "e.g [scrape_value]"
+msgstr "напр. [scrape_value]"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1064
+msgid "Add new custom field"
+msgstr "Добавить новое произвольное поле"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1075
+msgid "Translate Options"
+msgstr "Язык перевода"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1081
+msgid "Translate fields"
+msgstr "Поля ввода"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1081
+msgid "The field used to set the translation language for all fields of automatically created posts by the plugin in your WordPress site."
+msgstr "Установка языка перевода для всех полей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1086
+msgid "Source"
+msgstr "Источник"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1089 views/scrape-meta-box.php:1104
+msgid "Please select a language"
+msgstr "Пожалуйста, выберите язык"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1101
+msgid "Target"
+msgstr "Метод открытия ссылки"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1117 views/scrape-meta-box.php:1304
+msgid "Enable"
+msgstr "Включить"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1128
+msgid "Publish Options"
+msgstr "Настройки публикации"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1134
+msgid "Author"
+msgstr "Автор"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1134
+msgid "The field used to set the publishing author for automatically created posts by the plugin in your WordPress site."
+msgstr "Указание автора записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1152
+msgid "The field used to set which post status for automatically created posts by the plugin in your WordPress site."
+msgstr "Указание статуса записей."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1156
+msgid "Published"
+msgstr "Опубликовано"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1157
+msgid "Draft"
+msgstr "Черновик"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1158
+msgid "Pending review"
+msgstr "Ожидает рассмотрения"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1159
+msgid "Private"
+msgstr "Личное"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1167
+msgid "Date"
+msgstr "Дата"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1167
+msgid "The field used to set the publish date of posts which will be created automatically by the plugin in your WordPress site."
+msgstr "Указание даты публикации на сайте."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1171
+msgid "Date is found automatically."
+msgstr "Дата найдена автоматически."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1222
+msgid "e.g. YYYY-MM-DD HH:mm:ss"
+msgstr "напр. YYYY-MM-DD HH:mm:ss"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1230
+msgid "Process time"
+msgstr "Время процесса"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1240
+msgid "Discussion"
+msgstr "Обсуждение"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1240
+msgid "The field used to set whether user comments are allowed for automatically created posts by the plugin in your WordPress site or not."
+msgstr "Разрешены ли комментарии пользователей к записям."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1244
+msgid "Allow comments"
+msgstr "Разрешить комментарии"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1256
+msgid "Uniqueness Options"
+msgstr "Параметры уникальности"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1262
+msgid "Unique post check"
+msgstr "Проверка уникальности записи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1262
+msgid "The field to use whether posts should be unique or not."
+msgstr "Использовать уникальные записи или нет."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1266
+msgid "From title"
+msgstr "Из названия"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1267
+msgid "From content"
+msgstr "Из контента"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1268
+msgid "From source url"
+msgstr "Из исходного URL"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1276
+msgid "On existing post"
+msgstr "Если запись существует"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1276
+msgid "The field to set the action when a post in source url already exists in the WordPress site."
+msgstr "Выберите действие, если запись уже существует."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1280 views/scrape-meta-box.php:1456
+msgid "Skip to next process"
+msgstr "Перейти к следующему процессу"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1281
+msgid "Complete process"
+msgstr "Процесс завершен"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1282
+msgid "Update post"
+msgstr "Обновлять запись"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1290
+msgid "Complete run on loop"
+msgstr "Полный цикл работы"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1290
+msgid "The field to set how many on existing post occurrence is needed to stop the task until next run time in order to save system resources (Required)."
+msgstr "Сколько записей опубликовать перед остановкой задачи до следующего запуска, чтобы сохранить системные ресурсы (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1296 views/scrape-meta-box.php:1340
+msgid "posts"
+msgstr "записи"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1315
+msgid "Schedule Options"
+msgstr "Настройки расписания"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1321
+msgid "Cron type"
+msgstr "Тип планировщика"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1321
+msgid "The field used to set the method of calling the task when it is due time in the plugin in your WordPress site."
+msgstr "Метод вызова задачи, когда настало время запуска."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1325
+msgid "WordPress"
+msgstr "WordPress"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1326
+msgid "System"
+msgstr "Система"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1334
+msgid "Total posts"
+msgstr "Всего записей"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1334
+msgid "The field used to set how many posts will be created in the task in each run (Required)."
+msgstr "Сколько записей будет создано при каждом запуске задачи (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1348 views/scrape-meta-box.php:1369
+msgid "Unlimited"
+msgstr "Неограниченно"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1355
+msgid "Total runs"
+msgstr "Количество запусков"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1355
+msgid "The field to set how many times the task will run. When the task reaches the total run value it stops running (Required)."
+msgstr "Количество запусков выполнения задачи. Когда задача достигает значения полного выполнения, она перестает работать (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1361
+msgid "times"
+msgstr "раз(а)"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1376
+msgid "Run frequency"
+msgstr "Частота запусков"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1376
+msgid "The field to set the time interval of each task run."
+msgstr "Временной интервал для каждой задачи."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1387
+msgid "On uncompleted run"
+msgstr "Для незавершенных процессов"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1387
+msgid "The field to use what action will be taken when a process is not finished and according to run frequency field another task should start."
+msgstr "Выберите действие, которое будет предпринято, когда процесс не завершен и в соответствии с полем частоты выполнения, должна начаться другая задача."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1391
+msgid "Terminate previous run"
+msgstr "Завершить предыдущий запуск"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1392
+msgid "Wait until previous run is completed"
+msgstr "Дождаться завершения предыдущего запуска"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1400
+msgid "Run type"
+msgstr "Тип запуска"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1400
+msgid "The field to set where the task should start from for every run."
+msgstr "В поле задается начальная задача для каждого запуска."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1404
+msgid "Start from first list page"
+msgstr "Начать с первой страницы списка"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1405
+msgid "Continue from last scraped list page"
+msgstr "Продолжить с последней сканированной страницы"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1416
+msgid "Other Options"
+msgstr "Другие настройки"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1422
+msgid "Timeout for process"
+msgstr "Время ожидания"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1422
+msgid "The field to set maximum time the task will wait for a reply for http requests (Required)."
+msgstr "Максимальное время ожидания ответа для HTTP-запросов (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1428 views/scrape-meta-box.php:1443
+msgid "seconds"
+msgstr "сек."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1437
+msgid "Wait next processes"
+msgstr "Ожидание следующего процесса"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1437
+msgid "The field to set how much time to wait between processes (Required)."
+msgstr "Сколько времени ожидать между процессами (обязательно)."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1452
+msgid "On error"
+msgstr "В случае ошибки"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1452
+msgid "The field to set what action will be taken if task encounters an error during scrape process."
+msgstr "Какие действия будут предприняты, если задача обнаруживает ошибку во время процесса сканирования."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1457
+msgid "Complete run"
+msgstr "Завершено"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1473
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1474
+msgid "Please make sure that you have followed these steps in order."
+msgstr "Пожалуйста, убедитесь, что вы выполнили эти действия в указанном порядке."
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1476
+msgid "Watch tutorials"
+msgstr "Инструкции"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1477
+msgid "Read F.A.Q"
+msgstr "Читать F.A.Q"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1478
+msgid "Contact Octolooks"
+msgstr "Контакты"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1484
+msgid "Create"
+msgstr "Создать"
+
+# @ ol-scrapes
+#: views/scrape-meta-box.php:1523
+msgid "Disable styles"
+msgstr "Отключить стили"
+
+# @ ol-scrapes
+#: views/scrape-settings.php:49
+msgid "License Options"
+msgstr "Лицензия"
+
+# @ ol-scrapes
+#: views/scrape-settings.php:55
+msgid "Purchase Code"
+msgstr "Код покупки"
+
+# @ ol-scrapes
+#: views/scrape-settings.php:55
+msgid "The fields to set 36 character long purchase code and domain name without subdomain, starting with http which the plugin is defined to run on."
+msgstr "Поля для введения кода покупки в виде 36 символов и доменного имени без субдомена, начиная с http."
+
+# @ ol-scrapes
+#: views/scrape-settings.php:61
+msgid "Code"
+msgstr "Код"
+
+# @ ol-scrapes
+#: views/scrape-settings.php:69
+msgid "Domain"
+msgstr "Домен"
+
+# @ ol-scrapes
+#: views/scrape-settings.php:78
+msgid "I confirm that my purchase code will be defined for a single domain name at first validation according to <a href=\"https://codecanyon.net/licenses/terms/regular\" target=\"_blank\">regular license</a> terms. It will be valid only for domain name that I entered including subdomain names and localhost for testing purposes."
+msgstr "Я подтверждаю, что мой код покупки будет использоваться для одного домена в соответствии с <a href=\"https://codecanyon.net/licenses/terms/regular\" target=\"_blank\">обычными</a> условиями <a href=\"https://codecanyon.net/licenses/terms/regular\" target=\"_blank\">лицензии</a> . Он будет действителен только для имени домена, которое я ввел, включая имена поддоменов и localhost для целей тестирования."
+
+# @ ol-scrapes
+#: views/scrape-settings.php:79
+msgid "Must be confirmed in order to continue."
+msgstr "Необходимо подтвердить, чтобы продолжить."
+
+# @ ol-scrapes
+#: views/scrape-settings.php:96
+msgid "Save"
+msgstr "Сохранить"
