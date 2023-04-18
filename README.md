@@ -25,3 +25,5 @@ ol-scrapes-ru_RU.mo
 Также, не переведены слова в Частота запуска (Настройка расписания) - не отображается кириллица.
 
 Есть вопросы и предложения? https://github.com/Dizer7/scrapes_ru/issues
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://sitex.me/standwithukraine)
